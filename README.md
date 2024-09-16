@@ -81,6 +81,13 @@ To start the Django development server, run:
 ```bash
 python manage.py runserver
 ```
+### Generating Access Token via API
+
+You can generate an access token by sending a POST request to the login API endpoint:
+
+```bash
+POST /users/api/auth/login/
+```
 
 ### API Testing with Postman
 
@@ -95,6 +102,5 @@ You can use Postman to test the API by sending HTTP requests. Here's how:
 
 ### Additional Notes:
 
-- Make sure you update the database credentials (username and password) in the `settings.py` file and in the readme file.
-- This file assumes that your Django project and app are set up with the default directory structure. If you have different paths, adjust the instructions accordingly.
+- Make sure you update the database credentials (username and password) in the `settings.py` file.
   
