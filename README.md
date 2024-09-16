@@ -98,4 +98,3 @@ You can use Postman to test the API by sending HTTP requests. Here's how:
 - Make sure you update the database credentials (username and password) in the `settings.py` file and in the readme file.
 - This file assumes that your Django project and app are set up with the default directory structure. If you have different paths, adjust the instructions accordingly.
   
-You can modify this as per your specific project requirements. Let me know if you need further clarification!
